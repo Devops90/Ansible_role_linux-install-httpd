@@ -1,0 +1,6 @@
+---
+- name: 'Install httpd'
+  hosts: all
+  roles:
+    - role: "{{ playbook_dir }}"
+
